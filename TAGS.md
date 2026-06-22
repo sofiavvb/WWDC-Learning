@@ -13,7 +13,7 @@ Para adicionar uma tag nova: inclua-a nesta lista **no mesmo commit** da nota qu
 - `on-device-AI`
 - `evaluation`
 - `AI-ML`
-- `Vision-Framework
+- `Vision-Framework`
 - `tool-calling`
 - `image-understanding`
 
