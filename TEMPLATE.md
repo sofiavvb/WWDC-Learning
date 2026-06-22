@@ -7,7 +7,7 @@ author:
 tags: []
 ---
 
-## Resumo em uma frase
+## Resumo
 
 ## Conceitos principais
 

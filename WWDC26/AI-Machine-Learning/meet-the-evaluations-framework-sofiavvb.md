@@ -7,7 +7,7 @@ author: sofiavvb
 tags: [Foundation-Models, testing, on-device-AI, evaluation]
 ---
 
-## Resumo em uma frase
+## Resumo
 O Evaluations framework oferece uma forma estruturada de testar features de AI generativa, onde o mesmo input pode produzir outputs diferentes: algo que testes unitários tradicionais não conseguem cobrir.
 
 ## Conceitos principais
