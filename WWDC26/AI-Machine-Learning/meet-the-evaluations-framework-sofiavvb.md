@@ -46,7 +46,7 @@ O Evaluations framework oferece uma forma estruturada de testar features de AI g
 - **App de minigame com avaliação de performance:** o modelo gera uma avaliação textual da performance do usuário num minigame, mas é difícil saber se essas avaliações estão boas. O Evaluations framework permitiria definir métricas objetivas (ex: a avaliação menciona o ponto específico em que o usuário errou?) e usar um Model Judge para medir a qualidade qualitativa do feedback gerado.
 
 ## Conexões com outras sessões
-- [[Create Robust Evaluations for Agentic Apps]] — aprofunda a geração de datasets e casos avançados de ModelSample
+- Create Robust Evaluations for Agentic — aprofunda a geração de datasets e casos avançados de ModelSample
 
 ## Recursos oficiais
 - [Página da sessão](https://developer.apple.com/videos/play/wwdc2026/298)
