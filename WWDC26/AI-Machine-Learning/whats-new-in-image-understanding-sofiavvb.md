@@ -5,8 +5,6 @@ category: AI-Machine-Learning
 url: https://developer.apple.com/videos/play/wwdc2026/237
 author: sofiavvb
 tags:
-  - on-device-AI
-  - Foundation-Models
 ---
 
 ## Resumo
