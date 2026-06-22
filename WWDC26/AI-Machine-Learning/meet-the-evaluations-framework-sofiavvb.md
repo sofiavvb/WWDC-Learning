@@ -8,7 +8,7 @@ tags: [Foundation-Models, testing, on-device-AI, evaluation]
 ---
 
 ## Resumo em uma frase
-O Evaluations framework oferece uma forma estruturada de testar features de AI generativa, onde o mesmo input pode produzir outputs diferentes — algo que testes unitários tradicionais não conseguem cobrir.
+O Evaluations framework oferece uma forma estruturada de testar features de AI generativa, onde o mesmo input pode produzir outputs diferentes: algo que testes unitários tradicionais não conseguem cobrir.
 
 ## Conceitos principais
 
@@ -21,7 +21,7 @@ O Evaluations framework oferece uma forma estruturada de testar features de AI g
 4. Implementar um `Evaluator` (passa/falha na métrica)
 5. Definir um `aggregateMetrics` summary
 
-**Exemplo do vídeo (BookTagging):** uma feature inteligente que gera tags a partir da review de um livro. Usaram julgamento humano para identificar comportamentos a ajustar — garantir entre 3 e 8 tags por livro, não usar o título como tag, não usar várias palavras, identificar o gênero literário. A primeira expectativa testada foi justamente garantir que cada livro tenha entre 3 e 8 tags.
+**Exemplo do vídeo (BookTagging):** uma feature inteligente que gera tags a partir da review de um livro. Usaram julgamento humano para identificar comportamentos a ajustar: garantir entre 3 e 8 tags por livro, não usar o título como tag, não usar várias palavras, identificar o gênero literário. A primeira expectativa testada foi justamente garantir que cada livro tenha entre 3 e 8 tags.
 
 **Geração sintética de samples:** dados humanos não escalam ("human data creation doesn't scale"), então o framework oferece um `SampleGenerator` que cria novos samples automaticamente a partir de um modelo.
 
@@ -43,7 +43,7 @@ O Evaluations framework oferece uma forma estruturada de testar features de AI g
 - `ScoreDimensions` — dimensões de scoring para o Model Judge
 
 ## Casos de uso práticos
-- **App de minigame com avaliação de performance (Swift Student Challenge):** o modelo gera uma avaliação textual da performance do usuário num minigame, mas é difícil saber se essas avaliações estão boas. O Evaluations framework permitiria definir métricas objetivas (ex: a avaliação menciona o ponto específico em que o usuário errou?) e usar um Model Judge para medir a qualidade qualitativa do feedback gerado.
+- **App de minigame com avaliação de performance:** o modelo gera uma avaliação textual da performance do usuário num minigame, mas é difícil saber se essas avaliações estão boas. O Evaluations framework permitiria definir métricas objetivas (ex: a avaliação menciona o ponto específico em que o usuário errou?) e usar um Model Judge para medir a qualidade qualitativa do feedback gerado.
 
 ## Conexões com outras sessões
 - [[Create Robust Evaluations for Agentic Apps]] — aprofunda a geração de datasets e casos avançados de ModelSample

@@ -7,12 +7,12 @@ Notas colaborativas sobre as sessões em vídeo da WWDC, organizadas e conectada
 Este repositório é uma base de conhecimento colaborativa com notas sobre as sessões em
 vídeo da WWDC. As notas ficam organizadas pelas categorias oficiais da Apple (as mesmas
 do portal de vídeos para desenvolvedores) e são arquivos `.md` simples com `[[wikilinks]]`
-e tags — então qualquer pessoa pode abrir o repositório como um **vault do Obsidian** e
+e tags, então qualquer pessoa pode abrir o repositório como um **vault do Obsidian** e
 ganhar de graça um grafo de conexões entre os assuntos.
 
 A filosofia é **contribuição sem fricção**: você dá push direto na `main`. A consistência
-vem do template e deste README, não de revisões — se contribuir for difícil, ninguém
-contribui.
+vem do template e deste README, não de revisões. Se contribuir for difícil, ninguém
+contribui :)
 
 ## Como contribuir
 
@@ -30,7 +30,7 @@ contribui.
 5. **Dê push direto na `main`.**
 
 **Uma nota por pessoa, por sessão.** Se alguém já anotou uma sessão, **não edite o arquivo
-dessa pessoa** — crie o seu próprio, com o seu handle. Isso mantém as notas de cada um
+dessa pessoa**: crie o seu próprio, com o seu handle. Isso mantém as notas de cada um
 separadas e evita conflitos de Git.
 
 **Screenshots?** Coloque na pasta `assets/` da categoria, nomeados como
